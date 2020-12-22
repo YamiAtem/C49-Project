@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to right, red, blue);
+}
+
+#title {
+    text-align: center;
+    background: linear-gradient(to right, blue, red);
+    color: #EE7F7F;
+}
+
+#camel {
+    width: 55%;
+}
+
+#origamiCamel {
+    width: 492px;
+    height: 410px;
+
+    border-style: ridge;
+    border-width: 10px;
+}
+
+#origamiCamelTitle {
+    float: right;
+    color: #43F5FF;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
