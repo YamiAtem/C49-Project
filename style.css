@@ -3,16 +3,7 @@ body {
     overflow-x: hidden;
 }
 
-.divDivider {
-    width: 50%;
-}
-
-#title {
-    text-align: center;
-    background: linear-gradient(to right, blue, red);
-    color: #EE7F7F;
-}
-
+/* Divs */
 #camel {
     width: 55%;
 }
@@ -25,19 +16,7 @@ body {
     width: 55%;
 }
 
-.factsDivider {
-    width: 182.5%;
-}
-
-.image {
-    width: 492px;
-    height: 410px;
-
-    border-style: ridge;
-    border-width: 10px;
-    border-radius: 12.5%;
-}
-
+/* Div Titles */
 #camelTitle {
     float: right;
     color:#FCDB61;
@@ -51,6 +30,30 @@ body {
 #pigeonTitle {
     float: right;
     color: #53C4CC;
+}
+
+.divDivider {
+    width: 50%;
+}
+
+/* Others */
+#title {
+    text-align: center;
+    background: linear-gradient(to right, blue, red);
+    color: #EE7F7F;
+}
+
+.factsDivider {
+    width: 182.5%;
+}
+
+.image {
+    width: 492px;
+    height: 410px;
+
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 12.5%;
 }
 
 .facts {
