@@ -1,5 +1,10 @@
 body {
     background: linear-gradient(to right, red, blue);
+    overflow-x: hidden;
+}
+
+.divDivider {
+    width: 50%;
 }
 
 #title {
@@ -12,19 +17,48 @@ body {
     width: 55%;
 }
 
-#origamiCamel {
+#chameleon {
+    width: 60%;
+}
+
+#pigeon {
+    width: 55%;
+}
+
+.factsDivider {
+    width: 182.5%;
+}
+
+.image {
     width: 492px;
     height: 410px;
 
     border-style: ridge;
     border-width: 10px;
+    border-radius: 12.5%;
 }
 
-#origamiCamelTitle {
+#camelTitle {
     float: right;
-    color: #43F5FF;
+    color:#FCDB61;
+}
+
+#chameleonTitle {
+    float: right;
+    color:#CDDC26;
+}
+
+#pigeonTitle {
+    float: right;
+    color: #53C4CC;
+}
+
+.facts {
+    text-align: center;
 }
 
 ol {
     list-style-type: upper-roman;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
