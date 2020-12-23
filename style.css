@@ -24,6 +24,10 @@ body {
     width: 60%;
 }
 
+#cicada {
+    width: 55%;
+}
+
 /* Div Titles */
 #camelTitle {
     float: right;
@@ -50,8 +54,9 @@ body {
     color: #4D516A; 
 }
 
-.divDivider {
-    width: 50%;
+#cicadaTitle {
+    float: right;
+    color: #EEA954;
 }
 
 /* Others */
@@ -59,6 +64,10 @@ body {
     text-align: center;
     background: linear-gradient(to right, blue, red);
     color: #EE7F7F;
+}
+
+.divDivider {
+    width: 50%;
 }
 
 .factsDivider {
