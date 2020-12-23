@@ -16,6 +16,14 @@ body {
     width: 55%;
 }
 
+#teddy {
+    width: 60%;
+}
+
+#panda {
+    width: 60%;
+}
+
 /* Div Titles */
 #camelTitle {
     float: right;
@@ -30,6 +38,16 @@ body {
 #pigeonTitle {
     float: right;
     color: #53C4CC;
+}
+
+#teddyTitle {
+    float: right;
+    color: #FEC484; 
+}
+
+#pandaTitle {
+    float: right;
+    color: #4D516A; 
 }
 
 .divDivider {
